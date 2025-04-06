@@ -1,3 +1,7 @@
 from django.contrib import admin
+from hw_7_8.models import Category, Task, SubTask
 
-# Register your models here.
+
+admin.site.register(Category)
+admin.site.register(Task)
+admin.site.register(SubTask)
