@@ -55,8 +55,5 @@ class SubTask(models.Model):
         verbose_name = "SubTask"
         unique_together = ("title",)
 
-
-
-
     def __str__(self):
         return self.title
